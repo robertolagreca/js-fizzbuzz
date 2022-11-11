@@ -25,8 +25,12 @@ p{
     flex-wrap: wrap;
     margin-top: 10px;
 }
-.bg-azzurro{
+.bg-azzurro{                            /*colore standard degli square*/
     background-color: rgb(0, 170, 255);
+}
+
+.bg-fuxia{                            /*colore dello square nel caso sia multiplo di 3 o/e 5*/
+    background-color: rgb(255, 10, 128);
 }
 
 .square{
