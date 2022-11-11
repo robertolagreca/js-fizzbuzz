@@ -5,8 +5,7 @@
 }
 
 body{
-    background-color: rgba(21, 71, 180, 0.95);
-    
+    background-color: rgba(21, 71, 180, 0.95);  
 }
 
 .titolo{
@@ -32,6 +31,10 @@ p{
 .bg-fuxia{                            /*colore dello square nel caso sia multiplo di 3 o/e 5*/
     background-color: rgb(255, 10, 128);
 }
+
+.bg-fuxia:hover {
+    background-color: yellow;
+  }
 
 .square{
     display: flex;

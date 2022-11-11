@@ -23,15 +23,15 @@ for(i = 1; i <= 100; i++){
 
     switch (true){
         case (i % 3 == 0) && (i % 5 == 0):
-        containerMain.innerHTML +=  '<div class="square bg-fuxia"><p>fizzfuzz</p></div>';
-        
+        containerMain.innerHTML +=  '<div id="fuxia" class="square bg-fuxia"><p>fizzfuzz</p></div>';
+       
         break;
         case i % 3 == 0:
-        containerMain.innerHTML +=  '<div class="square bg-fuxia"><p>fizz</p></div>';
-        
+        containerMain.innerHTML +=  '<div id="fuxia" class="square bg-fuxia"><p>fizz</p></div>';
+    
         break;
         case i % 5 == 0:
-        containerMain.innerHTML +=  '<div class="square bg-fuxia"><p>fuzz</p></div>';
+        containerMain.innerHTML +=  '<div id="fuxia" class="square bg-fuxia"><p>fuzz</p></div>';
         break;
     
         default:
@@ -41,3 +41,6 @@ for(i = 1; i <= 100; i++){
 }
 
 
+
+
+    
